@@ -3,6 +3,10 @@
     "description": "node app test of ci cd",
     "version": "0.0.1",
     "private": true,
+    "scripts": {
+        "start": "pm2 start index.js",
+        "stop": "pm2 stop index.js"
+    },
     "dependencies": {
         "express": "^4.16.4"
     },
